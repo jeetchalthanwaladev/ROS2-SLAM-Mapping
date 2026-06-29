@@ -25,33 +25,17 @@ This project explores robotics middleware concepts, sensor integration, coordina
 ---
 
 # System Architecture
+<p align="center">
 
-LiDAR
+<img src="assets/System%20Architecture.png" width="1000"/>
 
-↓
+</p>
 
-/scan
-
-↓
-
-SLAM Toolbox
-
-↓
-
-Occupancy Grid Generation
-
-↓
-
-/map
-
-↓
-
-RViz2
-
-↓
-
-Map Visualization
-
+<p align="center">
+<center>
+<b>Figure 1:</b> ROS2 SLAM Architecture using TurtleBot3, SLAM Toolbox and RViz2
+</center>
+</p>
 ---
 
 # Features
